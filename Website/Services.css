@@ -1,0 +1,115 @@
+/*-----nav bar*/
+* {
+    overflow: hidden;
+}
+
+body {
+
+    background-image:  linear-gradient(to bottom, #011532, #193c70);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    
+ }
+
+/*
+ background-image: linear-gradient(to right, #011532, #1b498f);
+
+*/
+.navbar {
+    
+    background-color: #011532;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-item {
+    padding-right: 60px;
+    font-size: 1.1em;
+
+}
+
+/* ----content----*/
+#intro {
+    position: relative;
+    top: 4%;
+    
+}
+
+/*----card-----*/
+.card-img-top {
+    box-shadow: 5px 10px 13x 1px rgba(189, 189, 189, 0.5);
+    border-radius: 4%;
+    border: 1px solid white;
+ 
+}
+.Logo {
+   width: 33%;
+   align-self: center;
+   position: absolute;
+   bottom: 43%;
+
+}
+.display-4 {
+    
+    font-weight: 900;
+    font-style: italic;
+}
+.display-4 span {
+    color: rgb(239, 98, 12);
+}
+.container .row .card {
+    background: inherit;
+    margin: 1%;
+    border: 2px solid white;
+    font-weight: 300;
+    font-family: "Noto Sans", sans-serif;
+}
+.card-title {
+    font-weight: 600;
+}
+.card-text {
+ 
+}
+.watercontainer .img-water1 {
+    position: absolute;
+    bottom: 90%;
+    left: 122%;
+    height:20vh;
+    transform: rotateZ(20deg);
+    width: 24vw;
+    z-index: -1;
+}
+.watercontainer .img-water2 {
+    position: absolute;
+    transform: rotate(250deg);
+    bottom: 55%;
+    right: 230%;
+    width: 20vw;
+    z-index: -1;
+}
+.watercontainer {
+    background-image: url(assets.services/Third\ water\ Effect.webp);
+    background-size: cover;
+    height: 50%;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    z-index: -1;
+
+}
+
+@media (max-width: 768px) {
+    .nav-item {
+        padding-right: 20px;
+        font-size: 0.9em;
+    
+    }
+
+
+}

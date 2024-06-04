@@ -1,0 +1,1035 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar .Brand-Text {
+    height: 50px;
+
+}
+
+.navbar-left {
+    flex: 1;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+}
+
+.brand-logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-left {
+        margin-bottom: 10px;
+    }
+
+    .navbar-right {
+        flex-direction: column;
+    }
+}
+
+
+
+
+/*-----nav bar*/
+body {
+    background: #011532;
+    height: 100vh;
+    border: 1px solid;
+}
+.intro {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/*
+ background-image: linear-gradient(to right, #011532, #1b498f);
+
+*/
+.navbar span  {
+    font-weight: 900;
+    font-style: italic;
+}
+.navbar {
+    background-color: #011532;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+
+}
+
+.navbar-brand {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-item {
+    padding-right: 60px;
+    font-size: 1.1em;
+}
+
+.container .nav-item {}
+
+/*-----content*/
+
+
+.h1 {
+    /*-----colored Text------*/
+    font-weight: 900;
+    font-style: italic;
+    position: relative;
+    font-size: 1.4em;
+    right: 20%;
+}
+
+.lead {
+    font-weight: 300;
+    position: relative;
+    right: 20%;
+}
+
+.h1 span {
+    color: #ef620c;
+    font-size: 1.1em;
+}
+
+
+
+.btn {
+    border-radius: 50px;
+    padding: 10px 60px;
+    font-weight: 600;
+    text-decoration: underline;
+    position: relative;
+    right: 20%;
+}
+
+.priceTag {
+    width: 200px;
+    position: relative;
+    bottom: 75%;
+    right: 35%;
+
+}
+
+/*-----Text on image------*/
+.image-text p {
+    font-family: "Noto Sans", sans-serif;
+    position: relative;
+    bottom: 88%;
+    right: 35%;
+    color: white;
+    font-weight: 500;
+
+}
+
+.image-text #price {
+    font-size: 1.8em;
+    font-weight: 900;
+    font-style: italic;
+    position: relative;
+    bottom: 10px;
+}
+
+/*-----Water Effects------*/
+.EffectContainer {
+    max-height: 500px;
+    border: 1px;
+
+}
+
+/*-----Water Effects------*/
+
+.waterEffect {
+    position: relative;
+    top: 40%;
+    height: 500px;
+    transform: translate(-20%, -95%);
+    z-index: -1;
+    border: 2px solid;
+    overflow: hidden;
+
+}
+
+/*-----Sparkle Effects------*/
+.SparkleEffect {
+    position: absolute;
+    bottom: 43%;
+    right: 10%;
+    height: 50px;
+
+}
+
+.SparkleEffect1 {
+    position: absolute;
+    bottom: 77%;
+    right: 30%;
+    height: 50px;
+
+}
+
+.SparkleEffect2 {
+    position: absolute;
+    bottom: 86%;
+    left: 75%;
+    height: 50px;
+
+}
+
+.SparkleEffect3 {
+    position: absolute;
+    bottom: 45%;
+    height: 50px;
+    right: 45%;
+
+}
+
+.SparkleEffect4 {
+    position: absolute;
+    height: 80px;
+    bottom: 70%;
+    left: 50%;
+}
+
+/*-----Service------*/
+.row .h5 .borders {
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 1.0rem;
+}
+
+/*-----Sparkle Effects------*/
+
+/*-----Media queries------*/
+@media (max-width: 320px) {
+    
+    .shorttext {
+        position: relative;
+        left: 20%;
+        bottom: 20%;
+        font-size: 0.7em;
+    }
+
+    .lead {
+        font-weight: 300;
+        font-size: 0.5em;
+        position: relative;
+        left: 1px;
+        bottom: 50px;
+
+    }
+    .h1 span {
+        color: #ef620c;
+        font-size: 0.7em;
+        position: relative;
+        left: 20%;
+        bottom: 40px;
+
+    }
+ 
+    .btn {
+        border-radius: 40px;
+        padding: 5px 20px;
+        font-weight: 600;
+        text-decoration: underline;
+        position: relative;
+        left: 1px;
+        font-size: 0.8rem;
+
+    }
+    
+
+    .priceTag {
+        width: 140px;
+        position: relative;
+        bottom: 74%;
+        right: 13%;
+    }
+
+    .img-fluid {
+        position: relative;
+        bottom: 40px;
+        height:150px;
+
+    }
+
+    .image-text .Text{
+           font-size: 0.7em;
+           position: relative;
+           right: 42px;
+           top: -83%;
+
+
+    }
+    .image-text #price {
+        font-size: 1.8em;
+        font-weight: 900;
+        font-style: italic;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .row .h5 .borders {
+        border: 1px solid;
+        border-radius: 50px;
+        padding: 3px;
+        font-size: 0.2rem;
+        position: relative;
+        bottom: 140px;
+    
+    }
+
+    .OrangeCheckMark {
+        height: 15px;
+        position: relative;
+        bottom: 3px;
+        left: 10px;
+    }
+
+    .container-fluid {
+        height: 30%;
+        width: 75%;
+        position: absolute;
+        right: 13%;
+        bottom: 25%;
+        z-index: -1;
+    }
+     /*-----Sparkle Effects------*/
+     .SparkleEffect {
+        position: absolute;
+        bottom: 40%;
+        right: 30%;
+        height: 34px;
+
+    }
+
+    .SparkleEffect1 {
+        position: absolute;
+        bottom: 47%;
+        right: 30%;
+        height: 30px;
+
+    }
+
+    .SparkleEffect2 {
+        position: absolute;
+        bottom: 25%;
+        left: 35%;
+        height: 30px;
+
+    }
+
+    .SparkleEffect3 {
+        position: absolute;
+        bottom: 50%;
+        height: 31px;
+        right: 45%;
+
+    }
+
+    .SparkleEffect4 {
+        position: absolute;
+        height: 5%;
+        bottom: 35%;
+        left: 30%;
+    }
+}
+
+
+
+@media (min-width: 374px) and (max-width: 429px) {
+
+
+    .shorttext {
+        position: relative;
+        left: 20%;
+        bottom: 20%;
+        transform: translateY(40px);
+    }
+
+    .lead {
+        font-weight: 300;
+        font-size: 0.8em;
+        position: relative;
+        left: 13px;
+
+    }
+    .h1 span {
+        color: #ef620c;
+        font-size: 1em;
+        position: relative;
+        left: 20%;
+
+    }
+ 
+    .btn {
+        border-radius: 40px;
+        padding: 5px 20px;
+        font-weight: 600;
+        text-decoration: underline;
+        position: relative;
+        left: 1px;
+        font-size: 0.8rem;
+
+    }
+    
+
+    .priceTag {
+        width: 140px;
+        position: relative;
+        bottom: 58%;
+        right: 13%;
+
+    }
+
+    .img-fluid {
+        position: relative;
+        top: 30px;
+        height:190px;
+
+    }
+
+    .image-text p {
+        font-family: "Noto Sans", sans-serif;
+        position: relative;
+        right: 13%;
+        color: white;
+        font-weight: 300;
+        font-size: 0.8em;
+        bottom: 73%;
+        
+
+    }
+
+    .row .h5 .borders {
+        border: 1px solid;
+        border-radius: 50px;
+        padding: 3px;
+        font-size: 0.3rem;
+        position: relative;
+        bottom: 40px;
+    
+    }
+
+    .OrangeCheckMark {
+        height: 20px;
+        position: relative;
+        bottom: 3px;
+        left: 10px;
+    }
+
+    .container-fluid {
+        height: 30%;
+        width: 75%;
+        position: absolute;
+        right: 13%;
+        bottom: 25%;
+        z-index: -1;
+    }
+     /*-----Sparkle Effects------*/
+     .SparkleEffect {
+        position: absolute;
+        bottom: 40%;
+        right: 30%;
+        height: 34px;
+
+    }
+
+    .SparkleEffect1 {
+        position: absolute;
+        bottom: 47%;
+        right: 30%;
+        height: 30px;
+
+    }
+
+    .SparkleEffect2 {
+        position: absolute;
+        bottom: 25%;
+        left: 35%;
+        height: 30px;
+
+    }
+
+    .SparkleEffect3 {
+        position: absolute;
+        bottom: 50%;
+        height: 31px;
+        right: 45%;
+
+    }
+
+    .SparkleEffect4 {
+        position: absolute;
+        height: 5%;
+        bottom: 35%;
+        left: 30%;
+    }
+
+
+}
+
+@media (min-width: 430px) and (max-width: 569px) {
+
+    .shorttext {
+        position: relative;
+        left: 20%;
+        bottom: 20%;
+        transform: translateY(40px);
+    }
+
+    .lead {
+        font-weight: 300;
+        font-size: 0.8em;
+        position: relative;
+        left: 13px;
+
+    }
+    .h1 span {
+        color: #ef620c;
+        font-size: 1em;
+        position: relative;
+        left: 20%;
+
+    }
+ 
+    .btn {
+        
+        padding: 5px;
+        font-weight: 600;
+        text-decoration: underline;
+        position: relative;
+        left: 1px;
+        font-size: 0.8rem;
+
+    }
+    
+
+    .priceTag {
+        width: 100px;
+        position: relative;
+        bottom: 43%;
+        right: 13%;
+        
+
+    }
+
+    .img-fluid {
+        position: relative;
+        top: 20px;
+        height:180px;
+
+    }
+
+    .image-text p {
+        font-family: "Noto Sans", sans-serif;
+        position: relative;
+        right: 13%;
+        color: white;
+        font-weight: 300;
+        font-size: 0.5rem;
+        bottom: 53%;
+
+    }
+
+    .row .h5 .borders {
+        border: 1px solid;
+        border-radius: 50px;
+        font-size: 0.3rem;
+        position: relative;
+        bottom: 10px;
+        padding: 3;
+    }
+    .container .row .h5 .borders{
+        border: 1px solid;
+
+    }
+    .OrangeCheckMark {
+        height: 20px;
+        position: relative;
+        bottom: 3px;
+        left: 10px;
+    }
+
+    .container-fluid {
+        max-height: 200px;
+        max-width: 300px;
+        position: absolute;
+        right: 17%;
+        bottom: 37%;
+        z-index: -1;
+    }
+     /*-----Sparkle Effects------*/
+     .SparkleEffect {
+        position: absolute;
+        bottom: 40%;
+        right: 30%;
+        height: 34px;
+
+    }
+
+    .SparkleEffect1 {
+        position: absolute;
+        bottom: 47%;
+        right: 39%;
+        height: 30px;
+
+    }
+
+    .SparkleEffect2 {
+        position: absolute;
+        bottom: 44%;
+        left: 45%;
+        height: 40px;
+
+    }
+
+    .SparkleEffect3 {
+        position: absolute;
+        bottom: 55%;
+        height: 30px;
+        right: 45%;
+
+    }
+
+    .SparkleEffect4 {
+        position: absolute;
+        height: 30px;
+        bottom: 45%;
+        left: 34%;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 895px) {
+
+    .nav-item {
+        font-weight: 600;
+        font-size: 0.8em;
+    
+    }
+
+    .priceTag {
+        width: 150px;
+        position: relative;
+        bottom: 23%;
+        right: 34%;
+
+    }
+
+    .img-fluid {
+        position: relative;
+        top: 11%;
+        height: 240px;
+
+    }
+
+    .image-text p {
+        font-family: "Noto Sans", sans-serif;
+        position: relative;
+        right: 34%;
+        color: white;
+        font-weight: 300;
+        font-size: 0.6em;
+        bottom: 30%;
+    }
+
+    .row .h5 .borders {
+        border: 1px solid;
+        border-radius: 50px;
+
+        font-size: 0.8rem;
+
+
+
+    }
+
+    .OrangeCheckMark {
+        height: 25px;
+        position: relative;
+        bottom: 3px;
+        left: 10px;
+    }
+
+    .container-fluid {
+        max-height: 60%;
+        max-width: 60%;
+        position: absolute;
+        left: 39%;
+        bottom: 66%;
+        z-index: -1;
+        border: 8px;
+    }
+     /*-----Sparkle Effects------*/
+     .SparkleEffect {
+        position: absolute;
+        bottom: 70%;
+        right: 10%;
+        height: 54px;
+
+    }
+
+    .SparkleEffect1 {
+        position: absolute;
+        bottom: 80%;
+        right: 30%;
+        height: 40px;
+
+    }
+
+    .SparkleEffect2 {
+        position: absolute;
+        bottom: 79%;
+        left: 75%;
+        height: 40px;
+
+    }
+
+    .SparkleEffect3 {
+        position: absolute;
+        bottom: 5%;
+        height: 40px;
+        right: 30%;
+
+    }
+
+    .SparkleEffect4 {
+        position: absolute;
+        height: 50px;
+        bottom: 70%;
+        left: 53%;
+    }
+}
+
+@media (min-width:823px) and (max-width: 1024px){
+
+    body {
+        height: 50vh;
+    }
+    .container {
+
+    }
+    .row {
+        height: 100vh;
+    }
+        
+    /* Styles for xxS screens */
+    .image-text p {
+        font-family: "Noto Sans", sans-serif;
+        transform: translateY(100%);
+        font-size: 0.7em;
+        right: 35%;
+        color: white;
+        font-weight: 500;
+    }
+
+    .image-text #price {
+        font-size: 1.8em;
+        font-weight: 900;
+        font-style: italic;
+        position: relative;
+        bottom: 7px;
+
+    }
+
+    .priceTag {
+        width: 180px;
+        position: relative;
+        bottom: 66%;
+        right: 35%;
+        font-size: 10px;
+        
+
+    }
+
+    .container-fluid {
+        max-height: 90%;
+        max-width: 60%;
+        position: relative;
+        right: -1%;
+        transform: translateY(-90%);
+        
+    }
+
+    .row .h5 .borders {
+        border: 1px solid;
+        border-radius: 50px;
+        padding: 3px;
+        font-size: 1rem;
+        position: relative;
+        bottom: 190px;
+    }
+    .container-footer {
+    }
+
+    .OrangeCheckMark {
+        height: 45px;
+        position: relative;
+        bottom: 3px;
+        left: 10px;
+    }
+
+    /*-----Sparkle Effects------*/
+    .SparkleEffect {
+        position: absolute;
+        bottom: 65%;
+        right: 10%;
+        height: 50px;
+
+    }
+
+    .SparkleEffect1 {
+        position: absolute;
+        bottom: 77%;
+        right: 30%;
+        height: 50px;
+
+    }
+
+    .SparkleEffect2 {
+        position: absolute;
+        bottom: 86%;
+        left: 75%;
+        height: 50px;
+
+    }
+
+    .SparkleEffect3 {
+        position: absolute;
+        bottom: 65%;
+        height: 50px;
+        right: 45%;
+
+    }
+
+    .SparkleEffect4 {
+        position: absolute;
+        height: 80px;
+        bottom: 65%;
+        left: 50%;
+    }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+
+
+    /* Styles for L screens */
+
+    .row {
+        height: 50vh;
+    }
+    .image-text p {
+        font-family: "Noto Sans", sans-serif;
+        position: relative;
+        bottom: 83%;
+        right: 35%;
+        color: white;
+        font-weight: 500;
+
+    }
+
+    .image-text #price {
+        font-size: 1.4em;
+        font-weight: 900;
+        font-style: italic;
+        position: relative;
+        bottom: 16%;
+
+    }
+
+    .priceTag {
+        width: 190px;
+        position: relative;
+        bottom: 64%;
+        right: 35%;
+        font-size: 14px;
+
+
+    }
+
+    .row .h5 .borders {
+        border: 2x solid;
+        border-radius: 50px;
+        padding: 3px;
+        font-size: 1rem;
+        position: relative;
+        top: 10%;
+
+    }
+
+    .OrangeCheckMark {
+        height: 35px;
+        position: relative;
+        bottom: 3px;
+        left: 10px;
+    }
+
+    .container-fluid {
+        max-height: 50%;
+        max-width: 50%;
+        position: absolute;
+        right: 7%;
+        bottom: 6%;
+        z-index: -1;
+    }
+
+    /*-----Sparkle Effects------*/
+    .SparkleEffect {
+        position: absolute;
+        bottom: 55%;
+        right: 10%;
+        height: 50px;
+
+    }
+
+    .SparkleEffect1 {
+        position: absolute;
+        bottom: 77%;
+        right: 30%;
+        height: 50px;
+
+    }
+
+    .SparkleEffect2 {
+        position: absolute;
+        bottom: 86%;
+        left: 75%;
+        height: 50px;
+
+    }
+
+    .SparkleEffect3 {
+        position: absolute;
+        bottom: 55%;
+        height: 50px;
+        right: 45%;
+
+    }
+
+    .SparkleEffect4 {
+        position: absolute;
+        height: 80px;
+        bottom: 55%;
+        left: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /* Styles for XL screens */
+    .image-text p {
+        font-family: "Noto Sans", sans-serif;
+        position: relative;
+        bottom: 70%;
+        right: 35%;
+        color: white;
+        font-weight: 500;
+    }
+
+    .image-text #price {
+        font-size: 1.8em;
+        font-weight: 900;
+        font-style: italic;
+        position: relative;
+        bottom: 5px;
+
+    }
+
+    .priceTag {
+        width: 210px;
+        position: relative;
+        bottom: 59%;
+        right: 35%;
+        font-size: 10px;
+
+    }
+
+    .container-fluid {
+        height: 550px;
+        width: 650px;
+        position: absolute;
+        right: 15px;
+        bottom: 17%;
+        z-index: -1;
+    }
+
+    /*-----Sparkle Effects------*/
+    .SparkleEffect {
+        position: absolute;
+        bottom: 50%;
+        right: 10%;
+        height: 50px;
+
+    }
+
+    .SparkleEffect1 {
+        position: absolute;
+        bottom: 77%;
+        right: 30%;
+        height: 50px;
+
+    }
+
+    .SparkleEffect2 {
+        position: absolute;
+        bottom: 86%;
+        left: 75%;
+        height: 50px;
+
+    }
+
+    .SparkleEffect3 {
+        position: absolute;
+        bottom: 50%;
+        height: 50px;
+        right: 45%;
+
+    }
+
+    .SparkleEffect4 {
+        position: absolute;
+        height: 80px;
+        bottom: 75%;
+        left: 50%;
+    }
+    .row .h5 .borders {
+        border: 3px solid;
+        border-radius: 50px;
+        padding: 3px;
+        font-size: 1.3rem;
+        position: relative;
+        bottom: 80px;
+    
+    }
+
+    .OrangeCheckMark {
+        height: 40px;
+        position: relative;
+        bottom: 3px;
+        left: 15px;
+    }
+
+
+}
+
+/*-----End of Media queries------*/

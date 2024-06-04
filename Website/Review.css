@@ -1,0 +1,610 @@
+/*-----nav bar*/
+* {
+    overflow: hidden;
+}
+
+body {
+
+    background-image:  linear-gradient(to bottom, #011532, #193c70);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    
+ }
+
+/*
+ background-image: linear-gradient(to right, #011532, #1b498f);
+
+*/
+.navbar {
+    
+    background-color: #011532;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-item {
+    padding-right: 60px;
+    font-size: 1.1em;
+
+}
+
+/*-----Content------*/
+
+.container-fluid {
+    padding-top: 100px;
+}
+
+.review1 {
+    display: flex;
+}
+.container-fluid .Testimonial .h1 span {
+    color: #ef620c;
+}
+.container-fluid .Testimonial .h1 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3.6em;
+}
+.container-fluid .row{
+    position: relative;
+    left: 60px;
+
+}
+.Testimonial img {
+    position: absolute;
+    bottom: 19px;
+    height: 100%;
+    left: 20%;
+
+}
+
+/*-----Reviews------*/
+.review {
+    border: 2px solid #ccc;
+    height: 200px;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 15px;
+    
+}
+.review p {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.review-content {
+    display: flex;
+}
+.reviewer-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.review-details {
+    text-align: center;
+}
+.StarReview {
+    position: relative;
+    left: 10%;
+    color: orange;
+    font-size: 1.3em;
+}
+
+/*-----Media query------*/
+
+
+/*-----Media query for Small phone------*/
+
+@media (max-width: 489px) {
+
+    .container-fluid {
+        padding: 8px;
+        
+    }
+    
+    .container-fluid .col-md-5 {
+        position: relative;
+        max-width: 70%;
+        height: 10%;
+        
+    }
+
+.container-fluid .Testimonial .h1 span {
+    color: #ef620c;
+}
+.container-fluid .Testimonial .h1 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.Testimonial img {
+    position: absolute;
+    bottom: 58%;
+    height: 40%;
+    left: 33%;
+
+}
+.Testimonial .lead {
+    font-size: 0.7rem;
+
+}
+
+/*-----Reviews------*/
+.review {
+    border: 2px solid #ccc;
+    height: 17vh;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 5px;
+    
+}
+.review h3{
+    font-size: 0.5rem;
+    font-weight: 600;
+}
+.review p {
+    font-size: 0.5rem;
+    font-weight: 400;
+}
+.review-content {
+    display: flex;
+}
+.reviewer-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.review-details {
+    text-align: center;
+}
+.StarReview {
+    position: relative;
+    left: -1%;
+    color: orange;
+    font-size: 0.4rem;
+}
+}
+
+
+@media (min-width: 390px) and(max-width: 490px) {
+
+    .container-fluid {
+        padding: 8px;
+        padding-top: 10px;
+    }
+    
+    .container-fluid .col-md-5 {
+        position: relative;
+        max-width: 70%;
+        height: 10%;
+        
+    }
+
+.container-fluid .Testimonial .h1 span {
+    color: #ef620c;
+}
+.container-fluid .Testimonial .h1 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+.Testimonial img {
+    position: absolute;
+    bottom: 58%;
+    height: 40%;
+    left: 33%;
+
+}
+.Testimonial .lead {
+    font-size: 0.7rem;
+
+}
+
+/*-----Reviews------*/
+.review {
+    border: 2px solid #ccc;
+    height: 17vh;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 5px;
+    
+}
+.review h3{
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+.review p {
+    font-size: 0.5rem;
+    font-weight: 400;
+}
+.review-content {
+    display: flex;
+}
+.reviewer-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.review-details {
+    text-align: center;
+}
+.StarReview {
+    position: relative;
+    left: 15%;
+    color: orange;
+    font-size: 0.5rem;
+}
+#secondReviewer {
+    position: relative;
+    left: 50px;
+}
+#thirdReviewer {
+    position: relative;
+    left:40px;
+}
+}
+
+
+@media (min-width: 589px) and (max-width: 768px) {
+
+    .container-fluid {
+        padding: 8px;
+        padding-top: 15px;
+    }
+    
+    .container-fluid .col-md-5 {
+        position: relative;
+        max-width: 70%;
+        height: 10%;
+        
+    }
+
+.container-fluid .Testimonial .h1 span {
+    color: #ef620c;
+}
+.container-fluid .Testimonial .h1 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+.Testimonial img {
+    position: absolute;
+    bottom: 58%;
+    height: 40%;
+    left: 33%;
+
+}
+.Testimonial .lead {
+    font-size: 1rem;
+
+}
+
+/*-----Reviews------*/
+.review {
+    border: 2px solid #ccc;
+    height: 18vh;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 5px;
+    
+}
+.review h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.review p {
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+.review-content {
+    display: flex;
+}
+.reviewer-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.review-details {
+    text-align: center;
+}
+.StarReview {
+    position: relative;
+    left: 35%;
+    color: orange;
+    font-size: 1.2rem;
+}
+}
+
+
+
+
+/*-----Media query for Tablet------*/
+
+@media (min-width:766px) and (max-width: 820px) {
+
+    .container-fluid {
+        padding-top: 6%;
+    }
+    
+    .container-fluid .col-md-5 {
+        position: relative;
+        max-width: 70%;
+        height: 10%;
+    }
+
+.container-fluid .Testimonial .h1 span {
+    color: #ef620c;
+}
+.container-fluid .Testimonial .h1 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3.2em;
+}
+.Testimonial img {
+    position: absolute;
+    bottom: 42%;
+    height: 50%;
+    left: 33%;
+}
+.Testimonial .lead {
+    font-size: 1.1rem;
+}
+
+/*-----Reviews------*/
+
+#firstReviewer {
+    position: relative;
+    padding-top: 45px;
+}
+.review {
+    border: 2px solid #ccc;
+    height: 27vh;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 5px;
+    
+}
+.review h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.review p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+.review-content {
+    display: flex;
+}
+.reviewer-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.review-details {
+    text-align: center;
+}
+.StarReview {
+    position: relative;
+    left: 1%;
+    color: orange;
+    font-size: 0.9rem;
+}
+}
+
+@media (min-width:821px) and (max-width: 1023px) {
+
+    /*-----nav bar*/
+
+body {
+
+    background-image:  linear-gradient(to bottom, #011532, #193c70);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    
+ }
+.navbar {
+    
+    background-color: #011532;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 4%;
+}
+
+
+.nav-item {
+    padding-right: 30px;
+    font-size: 1.2rem;
+
+}
+    .container-fluid {
+        padding-left: 4%;
+
+    }
+    
+    .container-fluid .col-md-5 {
+        position: relative;
+        max-width: 70%;
+        height: 10%;
+    }
+
+.container-fluid .Testimonial .h1 span {
+    color: #ef620c;
+}
+.container-fluid .Testimonial .h1 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3rem;
+}
+.Testimonial img {
+    position: absolute;
+    bottom: 42%;
+    height: 60%;
+    left: 19%;
+}
+.Testimonial .lead {
+    font-size: 2.1rem;
+}
+
+/*-----Reviews------*/
+
+#firstReviewer {
+    position: relative;
+
+}
+.review {
+    border: 2px solid #ffffff;
+    height: 30vh;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    
+}
+.review h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.review p {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.review-content {
+    display: flex;
+}
+.reviewer-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.review-details {
+    text-align: center;
+}
+.StarReview {
+    position: relative;
+    left: 10%;
+    color: orange;
+    font-size: 1.9rem;
+}
+}
+
+/*-----Media query for Laptop------*/
+
+@media (min-width:1024px) and (max-width: 1440px) {
+
+    /*-----nav bar*/
+
+body {
+
+    background-image:  linear-gradient(to bottom, #011532, #193c70);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    
+ }
+.navbar {
+    
+    background-color: #011532;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 4%;
+}
+
+
+.nav-item {
+    padding-right: 30px;
+    font-size: 1.2rem;
+
+}
+    .container-fluid {
+        padding-left: 4%;
+        padding-top: 10px;
+
+    }
+    
+    .container-fluid .col-md-5 {
+        position: relative;
+        max-width: 70%;
+        height: 10%;
+    }
+
+.container-fluid .Testimonial .h1 span {
+    color: #ef620c;
+}
+.container-fluid .Testimonial .h1 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3rem;
+}
+.Testimonial img {
+    position: absolute;
+    bottom: 42%;
+    height: 60%;
+    left: 19%;
+}
+.Testimonial .lead {
+    font-size: 2.1rem;
+}
+
+/*-----Reviews------*/
+
+#firstReviewer {
+    position: relative;
+
+}
+.review {
+    border: 2px solid #ffffff;
+    height: 35vh;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    
+}
+.review h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.review p {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.review-content {
+    display: flex;
+}
+.reviewer-image {
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.review-details {
+    text-align: center;
+}
+.StarReview {
+    position: relative;
+    left: 4%;
+    color: orange;
+    font-size: 1.2rem;
+}
+}

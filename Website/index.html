@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="Style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>SparkleStream</title>
+
+    <!--Firebase-->>
+  <script defer src="/__/firebase/10.12.2/firebase-app-compat.js"></script>
+
+  <script defer src="/__/firebase/10.12.2/firebase-auth-compat.js"></script>
+  <script defer src="/__/firebase/10.12.2/firebase-database-compat.js"></script>
+  <script defer src="/__/firebase/10.12.2/firebase-firestore-compat.js"></script>
+  <script defer src="/__/firebase/10.12.2/firebase-functions-compat.js"></script>
+  <script defer src="/__/firebase/10.12.2/firebase-messaging-compat.js"></script>
+  <script defer src="/__/firebase/10.12.2/firebase-storage-compat.js"></script>
+  <script defer src="/__/firebase/10.12.2/firebase-analytics-compat.js"></script>
+  <script defer src="/__/firebase/10.12.2/firebase-remote-config-compat.js"></script>
+  <script defer src="/__/firebase/10.12.2/firebase-performance-compat.js"></script>
+
+  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+      <a class="navbar" href="#">
+        <img class="Brand-Text " height="20" src="assets/Logo.png" alt="Brand Logo">
+
+      </a>
+
+
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="Services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="ContactUs.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="Review.html">Reviews</a>
+          </li>
+          <div class="d-flex">
+            <a class="nav-link text-white" href="CreateAcc.html">Login/</a>
+            <a class="nav-link text-white" href="CreateAcc.html">Sign Up</a>
+    
+          </div>
+        </ul>
+      </div>
+
+
+      
+    </div>
+  </nav>
+
+  <!--content-->
+  <section id="intro">
+    <div class="container-lg">
+      <div class="row justify-content-center ">
+        <div class="col-md-5 text-center text-md-start">
+          <h2>
+            <div class="h1 text-white">
+              <div class="shorttext">IT'S TIME TO </div> <br> <span>SPARKLE <br> AND SHINE</span>
+            </div>
+          </h2>
+          <p class="lead my-4 text-white">We will make sure your car <br> comes out squeaky clean!</p>
+          <a href="" class="btn btn-light btn-lg"> Book now</a>
+        </div>
+        <div class="col-md-5 text-center">
+          <img class="img-fluid" src="assets/2ca54427814d0832ac72e3b6ddc8d0fe.webp" alt="Browser not supported">
+          <span class="image-text">
+            <div class="EffectContainer">
+              <img class="container-fluid" src="assets/WaterEffect.png" alt="">
+              <img class="SparkleEffect" src="assets/Sparkle Effect.png" alt="">
+              <img class="SparkleEffect1" src="assets/Sparkle Effect.png" alt="">
+              <img class="SparkleEffect2" src="assets/Sparkle Effect.png" alt="">
+              <img class="SparkleEffect3" src="assets/Sparkle Effect.png" alt="">
+              <img class="SparkleEffect4" src="assets/Sparkle Effect.png" alt="">
+
+            </div>
+            <img class="priceTag"
+              src="assets/kisspng-oval-computer-icons-clip-art-orange-star-5b0c7edab0f1f8.3557288515275455627248-removebg-preview.png"
+              alt="">
+            <p class="Text">Start from
+              <br>
+              <span id="price">P250</span>
+            </p>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="row">
+      <div class="h5 col-3 text-white">
+        <span class="borders">Interior cleaning <img class="OrangeCheckMark" src="assets/Orange checkk.png" alt="Orange check mark" height="50"></span>
+      </div>
+      <div class="h5 col-3 text-white">
+        <span class="borders">Interior cleaning <img class="OrangeCheckMark" src="assets/Orange checkk.png" alt="Orange check mark" height="50"></span>
+      </div>
+      <div class="h5 col-3 text-white">
+        <span class="borders">Interior cleaning <img class="OrangeCheckMark" src="assets/Orange checkk.png" alt="Orange check mark" height="50"></span>
+      </div>
+      <div class="h5 col-3 text-white">
+        <span class="borders">Interior cleaning <img class="OrangeCheckMark" src="assets/Orange checkk.png" alt="Orange check mark" height="50"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyA_gIEDwi_VaFuMlaTlFrzzhLUncjXEXVs",
+      authDomain: "onepit-b36c5.firebaseapp.com",
+      projectId: "onepit-b36c5",
+      storageBucket: "onepit-b36c5.appspot.com",
+      messagingSenderId: "406031760805",
+      appId: "1:406031760805:web:b6e0e8dc0e994208a0bc4c",
+      measurementId: "G-RTW4RV10YM"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const loadEl = document.querySelector('#load');
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+      // // The Firebase SDK is initialized and available here!
+      //
+      // firebase.auth().onAuthStateChanged(user => { });
+      // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+      // firebase.firestore().doc('/foo/bar').get().then(() => { });
+      // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+      // firebase.messaging().requestPermission().then(() => { });
+      // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+      // firebase.analytics(); // call to activate
+      // firebase.analytics().logEvent('tutorial_completed');
+      // firebase.performance(); // call to activate
+      //
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+      try {
+        let app = firebase.app();
+        let features = [
+          'auth',
+          'database',
+          'firestore',
+          'functions',
+          'messaging',
+          'storage',
+          'analytics',
+          'remoteConfig',
+          'performance',
+        ].filter(feature => typeof app[feature] === 'function');
+        loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+      } catch (e) {
+        console.error(e);
+        loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+      }
+    });
+  </script>
+
+  <!-- JavaScript to close the navbar on click -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-toggler'), 0);
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+            // Get the target from the "data-bs-target" attribute
+            const target = el.dataset.bsTarget;
+            const $target = document.getElementById(target);
+            // Toggle the "collapse" class on the target
+            $target.classList.toggle('collapse');
+            // Toggle the "show" class on the target
+            $target.classList.toggle('show');
+          });
+        });
+      }
+    });
+  </script>
+
+  <!-- Your web app's Firebase configuration -->
+  <script>
+    const firebaseConfig2 = {
+      apiKey: "your-api-key",
+      authDomain: "your-project-id.firebaseapp.com",
+      projectId: "your-project-id",
+      storageBucket: "your-project-id.appspot.com",
+      messagingSenderId: "your-sender-id",
+      appId: "your-app-id"
+    };
+
+    // Initialize Firebase with a different variable name
+    const firebaseApp = firebase.initializeApp(firebaseConfig2);
+    const db = firebase.firestore();
+
+    document.getElementById('signup-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const fullName = document.querySelector('[name="fullname"]').value;
+        const email = document.querySelector('[name="email"]').value;
+        const password = document.querySelector('[name="password"]').value; // Consider security implications
+
+        db.collection('users').add({
+            fullname: fullName,
+            email: email,
+            password: password // Storing passwords in plaintext is not secure
+        }).then(() => {
+            console.log('User registered!');
+            // Handle successful registration (e.g., show a message or redirect)
+        }).catch(error => {
+            console.error('Error registering user:', error);
+        });
+    });
+  </script>
+</body>
+
+</html>

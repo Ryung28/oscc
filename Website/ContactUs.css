@@ -1,0 +1,135 @@
+/*-----nav bar------*/
+* {
+    overflow: hidden;
+}
+
+body {
+
+    background-image:  linear-gradient(to bottom, #011532, #1e437a);
+    background-repeat: no-repeat;
+    height: 100vh;
+ }
+.navbar {
+    
+    background-color: #011532;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-item {
+    padding-right: 60px;
+    font-size: 1.1em;
+
+}
+
+/*-----Content------*/
+
+.BigText {
+    color: white;
+    text-align: center;
+
+    
+}
+
+/*-----h1 text------*/
+.BigText h1{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 5em;
+}
+.BigText p {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.1em;
+}
+.BigText span {
+    color: #ef620c;
+
+}
+.container-fluid {
+    color: white;
+    
+    
+}
+h1 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/*-----Map------*/
+
+
+.contact-section {
+    margin-top: 2%;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 50px;
+    background: rgb(248, 247, 253);
+
+    
+}
+.contact-column {
+    flex: 1;
+    padding: 20px;
+}
+.contact-column p {
+    margin-bottom: 20px;
+}
+.contact-column h2 {
+    color: #011532;
+}
+.contact-column strong {
+    color: #ef620c;
+}
+.contact-column h2,
+.contact-column p {
+    word-wrap: break-word; /* Allows long words to be broken and wrap onto the next line */
+    hyphens: auto; /* Automatically add hyphens when breaking words */
+}
+@media (max-width: 768px) {
+
+    .BigText h1{
+        font-weight: 900;
+        font-style: italic;
+        font-size: 3em;
+    }
+    .BigText p {
+        font-family: "Noto Sans", sans-serif;
+        font-size: 0.9em;
+        position: relative;
+        bottom: 40px;
+    }
+    .contact-column {
+        height: 50vh;
+        
+        
+    }
+    .container {
+        position: relative;
+        bottom: 7%;
+    }
+    .contact-section {
+        font-size: 0.7em;
+    }
+    .contact-column h2 {
+        font-size: 2em;
+    }
+    .contact-column .logo {
+        height: 10px;
+    }
+    .contact-column iframe {
+        display: block;
+    }
+    .contact-column h2,
+    .contact-column p {
+        font-size: smaller; /* Optionally reduce font size on smaller screens */
+    }
+
+    
+    
+}

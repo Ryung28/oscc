@@ -1,0 +1,779 @@
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    position: fixed;
+
+}
+.Brand-Text {
+    position: fixed;
+    left: 70%;
+    z-index: 1;
+    transform: translate(130px, 10px);
+    max-height: 60px;
+}
+.Logo {
+    z-index: 1;
+    max-height: 28px;
+    position: absolute;
+    right: 23%;
+    top: 15%;
+
+}
+.Logo-text {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-weight: 600;
+    top: 21%;
+    left: 21%;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 3.9rem;
+
+}
+.lead {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 37%;
+    left: 22%;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.7rem;
+}
+.bg-img {
+    filter: brightness(50%);
+}
+.background-img img {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    
+
+}
+.container-fluid #Car-img {
+    position: absolute;
+    top: 100%;
+    left: 7%;
+    max-height: 100%;
+    max-width: 50%;
+    
+}
+
+.content-section img {
+    position: absolute;
+    left: 15%;
+    width: 34%;
+    
+}
+
+#design {
+    position: absolute;
+    left: 5%;
+    width: 7%;
+
+}
+
+.content-section .img-design {
+    height: 22px;
+    position: absolute;
+    top: 5%;
+    left: 70%;
+}
+.content-section #design {
+    color: white;
+}
+
+/*water Effect*/
+
+.effect-container .WaterOne {
+    height: 170px;
+    width: 170px;
+    position: absolute;
+    top: 110%;
+    left: 5%;
+    transform: rotate(60deg);
+}
+.effect-container .WaterTwo {
+    height: auto;
+    object-fit: cover;
+    max-width: 31%;
+    overflow: hidden;
+    position: fixed;
+    top: 65%;
+    left: 29%;
+    z-index: 1;
+    transform: rotate(-10deg);
+}
+.effect-container .WaterThree {
+    height: auto;
+    object-fit: cover;
+    max-width: 25%;
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    left: 29%;
+    transform: rotate(30deg);
+}
+
+
+
+/*glassmorphism*/
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 25%;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+    width: 400px;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin: 10px 0 30px 0;
+    font-size: 25px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 15px;
+}
+
+.input {
+    border-radius: 20px;
+    border: 1px solid #c0c0c0;
+    outline: 0;
+    padding: 12px 15px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.page-link {
+    text-decoration: underline;
+    margin: 0;
+    color: #747474;
+    margin-left: 10px;
+}
+
+.page-link-label {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    color: #b9b9b9;
+}
+
+.page-link-label:hover {
+    color: #000;
+}
+
+.form-btn {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0;
+    background: teal;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form-btn:active {
+    box-shadow: none;
+}
+
+.sign-up-label,
+.login-label {
+    margin: 0;
+    font-size: 13px;
+    color: #b9b9b9;
+    margin-left: 10px;
+}
+
+.sign-up-link,
+.login-link {
+    margin-left: 1px;
+    font-size: 13px;
+    text-decoration: underline;
+    color: rgb(0, 48, 48);
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.apple-login-button,
+.google-login-button {
+    border-radius: 20px;
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    gap: 5px;
+}
+
+.apple-login-button {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.google-login-button {
+    border: 2px solid #747474;
+    background: #fff;
+    color: #000;
+}
+
+.apple-icon,
+.google-icon {
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+
+/*-----Media query for Small phone------*/
+
+
+
+
+
+
+@media (max-width: 390px) {
+
+    .Brand-Text {
+        position: fixed;
+        left: 70%;
+        z-index: 1;
+        transform: translate(130px, 10px);
+        max-height: 60px;
+    }
+    .Logo {
+        z-index: 1;
+        max-height: 15px;
+        position: absolute;
+        transform: translateX(-22%);
+        top: 15%;
+    
+    }
+    .Logo-text {
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-weight: 600;
+        top: 19%;
+        left: 16%;
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+        font-size: 1.9rem;
+    
+    }
+    .lead {
+        position: absolute;
+        z-index: 1;
+        color: white;
+        top: 30%;
+        left: 16%;
+        font-weight: 300;
+        font-family: "Roboto", sans-serif;
+        font-size: 0.5rem;
+    }
+
+    .container-fluid #Car-img {
+        position: absolute;
+        top: 100%;
+        left: 7%;
+        max-height: 100%;
+        max-width: 50%;
+        display: none;
+    }
+
+    .effect-container .WaterOne {
+
+        display: none;
+    }
+    .effect-container .WaterTwo {
+        display: none;
+    }
+    .effect-container .WaterThree {
+        display: none;
+    }
+
+    .background-img img {
+        height: 100vh;
+        width: 110vw;
+        position: absolute;
+        left: -11px;
+        
+    
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: 8%;
+        left:1%;
+        align-items: center;
+        padding: 30px;
+        border-radius: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 540px) {
+    .Brand-Text {
+        position: fixed;
+        left: 70%;
+        z-index: 1;
+        transform: translate(130px, 10px);
+        max-height: 60px;
+    }
+    .Logo {
+        z-index: 1;
+        max-height: 15px;
+        position: absolute;
+        transform: translateX(-22%);
+        top: 15%;
+    
+    }
+    .Logo-text {
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-weight: 600;
+        top: 19%;
+        left: 16%;
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+        font-size: 1.9rem;
+    
+    }
+    .lead {
+        position: absolute;
+        z-index: 1;
+        color: white;
+        top: 30%;
+        left: 16%;
+        font-weight: 300;
+        font-family: "Roboto", sans-serif;
+        font-size: 0.5rem;
+    }
+
+    .container-fluid #Car-img {
+        position: absolute;
+        top: 100%;
+        left: 7%;
+        max-height: 100%;
+        max-width: 50%;
+        display: none;
+    }
+
+    .effect-container .WaterOne {
+
+        display: none;
+    }
+    .effect-container .WaterTwo {
+        display: none;
+    }
+    .effect-container .WaterThree {
+        display: none;
+    }
+
+    .background-img img {
+        height: 100vh;
+        width: 110vw;
+        position: absolute;
+        left: -11px;
+        
+    
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        left:1%;
+        align-items: center;
+        padding: 30px;
+        border-radius: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 766px) {
+    .Brand-Text {
+        position: fixed;
+        left: 70%;
+        z-index: 1;
+        transform: translate(130px, 10px);
+        max-height: 60px;
+    }
+    .Logo {
+        z-index: 1;
+        max-height: 15px;
+        position: absolute;
+        transform: translateX(-22%);
+        top: 15%;
+    
+    }
+    .Logo-text {
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-weight: 600;
+        top: 19%;
+        left: 16%;
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+        font-size: 1.9rem;
+    
+    }
+    .lead {
+        position: absolute;
+        z-index: 1;
+        color: white;
+        top: 30%;
+        left: 16%;
+        font-weight: 300;
+        font-family: "Roboto", sans-serif;
+        font-size: 0.5rem;
+    }
+
+    .container-fluid #Car-img {
+        position: absolute;
+        top: 100%;
+        left: 7%;
+        max-height: 100%;
+        max-width: 50%;
+        display: none;
+    }
+
+    .effect-container .WaterOne {
+
+        display: none;
+    }
+    .effect-container .WaterTwo {
+        display: none;
+    }
+    .effect-container .WaterThree {
+        display: none;
+    }
+
+    .background-img img {
+        height: 100vh;
+        width: 110vw;
+        position: absolute;
+        left: -11px;
+        
+    
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: 8%;
+        left:1%;
+        align-items: center;
+        padding: 30px;
+        border-radius: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 540px) {
+    .Brand-Text {
+        position: fixed;
+        left: 70%;
+        z-index: 1;
+        transform: translate(130px, 10px);
+        max-height: 60px;
+    }
+    .Logo {
+        z-index: 1;
+        max-height: 15px;
+        position: absolute;
+        transform: translateX(-22%);
+        top: 15%;
+    
+    }
+    .Logo-text {
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-weight: 600;
+        top: 19%;
+        left: 16%;
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+        font-size: 1.9rem;
+    
+    }
+    .lead {
+        position: absolute;
+        z-index: 1;
+        color: white;
+        top: 30%;
+        left: 16%;
+        font-weight: 300;
+        font-family: "Roboto", sans-serif;
+        font-size: 0.5rem;
+    }
+
+    .container-fluid #Car-img {
+        position: absolute;
+        top: 100%;
+        left: 7%;
+        max-height: 100%;
+        max-width: 50%;
+        display: none;
+    }
+
+    .effect-container .WaterOne {
+
+        display: none;
+    }
+    .effect-container .WaterTwo {
+        display: none;
+    }
+    .effect-container .WaterThree {
+        display: none;
+    }
+
+    .background-img img {
+        height: 100vh;
+        width: 110vw;
+        position: absolute;
+        left: -11px;
+        
+    
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        left:1%;
+        align-items: center;
+        padding: 30px;
+        border-radius: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+        width: 350px;
+    }
+}
+
+@media (min-width: 1440px) {
+    
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 25%;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+    width: 850px;
+    height: 1100px;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin: 10px 0 30px 0;
+    font-size: 25px;
+    font-weight: 800;
+    color: #fff;
+    font-size: 4em;
+    position: relative;
+    bottom: 20%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 15px;
+}
+
+.input {
+    border-radius: 20px;
+    border: 1px solid #c0c0c0;
+    font-size: 2em;
+    outline: 0;
+    padding: 12px 15px;
+    background: rgba(255, 255, 255, 0.7);
+    margin: 15px;
+    position: relative;
+    bottom: 150px;
+}
+
+.page-link {
+    text-decoration: underline;
+    margin: 0;
+    color: #747474;
+    margin-left: 10px;
+}
+
+.page-link-label {
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #b9b9b9;
+    position: relative;
+    bottom: 150px;
+    left: 10px;
+}
+
+.page-link-label:hover {
+    color: #000;
+    position: relative;
+    bottom: 150px;
+    left: 10px;
+}
+
+.form-btn {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0;
+    background: teal;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 1.5em;
+    position: relative;
+    bottom:140px;
+}
+
+.form-btn:active {
+    box-shadow: none;
+}
+
+.sign-up-label,
+.login-label {
+    margin: 0;
+    font-size: 1.5em;
+    color: #b9b9b9;
+    margin-left: 10px;
+    position: relative;
+    bottom:140px;
+}
+
+.sign-up-link,
+.login-link {
+    margin-left: 1px;
+    font-size: 13px;
+    text-decoration: underline;
+    color: rgb(0, 48, 48);
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 1.5em;
+    
+    
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.apple-login-button,
+.google-login-button {
+    border-radius: 20px;
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9em;
+    gap: 5px;
+    position: relative;
+    bottom:100px;
+    padding: 20px;
+}
+
+.apple-login-button {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.google-login-button {
+    border: 2px solid #747474;
+    background: #fff;
+    color: #000;
+}
+
+.apple-icon,
+.google-icon {
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+}
